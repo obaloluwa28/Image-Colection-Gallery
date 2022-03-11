@@ -1,0 +1,18 @@
+/* image grid styles */
+.img-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.img-wraap{
+    width: fit-content;
+    max-height: fit-content
+}
+
+#img{
+    width: 400px;
+    height: 400px
+}
+  

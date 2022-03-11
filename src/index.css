@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Fira+Sans+Condensed:wght@100;200;300;400;500;600&display=swap');
+
+:root{
+  --primary: #efb6b2;
+  --secondary: #4e4e4e;
+  --error: #ff4a4a;
+  --progress: #088a4d;
+}
+
+/* base styles & title */
+body{
+  /* font-family: "Noto Serif"; */
+  color: var(--secondary);
+}
+.App{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.title{
+  margin-bottom: 20px;
+}
+
+.title h2, .title p{
+  text-align: center;
+}
+
+.title h2{
+  margin-top: 30px;
+  font-size: 2.6rem;
+}
+
+/* upload form styles */
+
+.Upload-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.output{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* progress bar styles */
+.progress-bar{
+  height: 10px;
+  border-radius: 5px;
+  background: var(--progress);
+  margin-top: 20px;
+  width: 300px;
+}
+
+/* modal styles */
+
+.backdrop{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.562);
+}
+
+#modalImg{
+  max-width: 80%;
+  height: 90%;
+}
